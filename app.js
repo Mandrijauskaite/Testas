@@ -25,7 +25,7 @@ class Krepsys {
     static pripildyti() {
 
         if (this.vaisiai.length === 0) {
-            for (let i = 0; i<20; i++) {
+            for (let i = 0; i < 20; i++) {
             this.vaisiai.push(new Vaisius)
             } 
             console.log(this.vaisiai);
@@ -33,7 +33,7 @@ class Krepsys {
         }
 
         else {
-            const kiekPapildyti = 20-this.vaisiai.length;
+            const kiekPapildyti = 20 - this.vaisiai.length;
 
             for (let i = 0; i < kiekPapildyti; i++) {
                 this.vaisiai.push(new Vaisius)
